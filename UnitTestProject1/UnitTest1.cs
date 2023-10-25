@@ -33,7 +33,7 @@ namespace UnitTestProject1
             driver = new ChromeDriver("C:\\ChromeDriver");
             driverWait = new WebDriverWait(driver, TimeSpan.FromSeconds(60));
             driver.Manage().Window.Maximize();
-            driver.Navigate().GoToUrl("http://jnb-dev-bbk:9014/portal");
+            driver.Navigate().GoToUrl("OMITTED");
             AOSimplify = new AccountOpeningSimplify(driver, driverWait);
             PortalSimplify = new PortalSimplify(driver, driverWait);
             DataHandler = new DataHandler("SybBBG");
